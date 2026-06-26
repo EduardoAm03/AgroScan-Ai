@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Symmetrical Corner Indicators (Outer border design from image) -->
+    <!-- Top-Left Arc -->
+    <path
+        android:strokeColor="#32B86C"
+        android:strokeWidth="4.0"
+        android:strokeLineCap="round"
+        android:pathData="M 24,18 Q 14,24 10,34" />
+
+    <!-- Top-Right Arc -->
+    <path
+        android:strokeColor="#32B86C"
+        android:strokeWidth="4.0"
+        android:strokeLineCap="round"
+        android:pathData="M 84,18 Q 94,24 98,34" />
+
+    <!-- Bottom-Left Arc -->
+    <path
+        android:strokeColor="#32B86C"
+        android:strokeWidth="4.0"
+        android:strokeLineCap="round"
+        android:pathData="M 10,74 Q 14,84 24,90" />
+
+    <!-- Bottom-Right Arc -->
+    <path
+        android:strokeColor="#32B86C"
+        android:strokeWidth="4.0"
+        android:strokeLineCap="round"
+        android:pathData="M 98,74 Q 94,84 84,90" />
+
+    <!-- Central Symmetrical White Leaf Shape -->
+    <path
+        android:fillColor="#F1FBF4"
+        android:strokeColor="#103C1A"
+        android:strokeWidth="2.0"
+        android:pathData="M 54,84 C 32,70 30,46 54,20 C 78,46 76,70 54,84 Z" />
+
+    <!-- Leaf Central Stem -->
+    <path
+        android:strokeColor="#1E6B2D"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M 54,82 L 54,22" />
+
+    <!-- Symmetrical Curved Leaf Veins -->
+    <!-- Vein set 1 (top) -->
+    <path
+        android:strokeColor="#1E6B2D"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M 54,38 Q 44,38 40,44" />
+    <path
+        android:strokeColor="#1E6B2D"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M 54,38 Q 64,38 68,44" />
+
+    <!-- Vein set 2 (middle) -->
+    <path
+        android:strokeColor="#1E6B2D"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M 54,52 Q 42,52 36,58" />
+    <path
+        android:strokeColor="#1E6B2D"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M 54,52 Q 66,52 72,58" />
+
+    <!-- Vein set 3 (bottom) -->
+    <path
+        android:strokeColor="#1E6B2D"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M 54,66 Q 44,66 42,72" />
+    <path
+        android:strokeColor="#1E6B2D"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M 54,66 Q 64,66 66,72" />
+
+    <!-- Glowing Horizontal Scanning Laser Beam (Orange-Yellow Laser Line) -->
+    <path
+        android:strokeColor="#F39C12"
+        android:strokeWidth="4.5"
+        android:strokeLineCap="round"
+        android:pathData="M 22,54 L 86,54" />
+
+    <!-- Thin Laser Inner Glow -->
+    <path
+        android:strokeColor="#FFEB3B"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M 24,54 L 84,54" />
+
+</vector>
